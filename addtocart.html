@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex align-items-center justify-content-between">
+                    <div class="title">
+                        <a href="#"><i class="fa-solid fa-bowl-food"></i>FOOD DELIGHT</a>
+                    </div>
+                    <div class="addcart">
+                        <button class="btn text-white" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
+                                class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-1">
+        <h2 class="title-1">Discover the Best Food</h2>
+        <div class="shop-content" id="product">
+            <!-- <div class="food-box">
+                <div class="pic">
+                    <img src="assets/images/img-1.jpg" class="food-img">
+                </div>
+                <h2 class="food-title">Plain</h2>
+                <span class="food-price">Rs.40</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="food-box">
+                <div class="pic">
+                    <img src="assets/images/img-2.jpg" class="food-img">
+                </div>
+                <h2 class="food-title">Paper Roast</h2>
+                <span class="food-price">Rs.65</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="food-box">
+                <div class="pic">
+                    <img src="assets/images/img-3.jpg" class="food-img">
+                </div>
+                <h2 class="food-title">Onion Roast</h2>
+                <span class="food-price">Rs.80</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="food-box">
+                <div class="pic">
+                    <img src="assets/images/img-4.jpg" class="food-img">
+                </div>
+                <h2 class="food-title">Egg Parotta</h2>
+                <span class="food-price">Rs.55</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="food-box">
+                <div class="pic">
+                    <img src="assets/images/img-5.jpg" class="food-img">
+                </div>
+                <h2 class="food-title">Plain Omelette</h2>
+                <span class="food-price">Rs.25</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="food-box">
+                <div class="pic">
+                    <img src="assets/images/img-6.jpg" class="food-img">
+                </div>
+                <h2 class="food-title">Kadai Fry</h2>
+                <span class="food-price">Rs.150</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="food-box">
+                <div class="pic">
+                    <img src="assets/images/img-7.jpg" class="food-img">
+                </div>
+                <h2 class="food-title">Egg Veechu</h2>
+                <span class="food-price">Rs.65</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="food-box">
+                <div class="pic">
+                    <img src="assets/images/img-8.jpg" class="food-img">
+                </div>
+                <h2 class="food-title">Egg Roast</h2>
+                <span class="food-price">Rs.65</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>  
+            </div> -->
+        </div>
+    </div>
+
+
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Cart Items</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div id="cart">
+
+            </div>
+            <h6 class="d-flex justify-content-end" id="totalamount"></h6>
+            <button type="button" class="btn" style="border-radius: 3px; background-color: #2f3542; color: white; height: 50px;">
+                Place Order</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/index.js" type="text/javascript"></script>
+
+</body>
+
+</html>
